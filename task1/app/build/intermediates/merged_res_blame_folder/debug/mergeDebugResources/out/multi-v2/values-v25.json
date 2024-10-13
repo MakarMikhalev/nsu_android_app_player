@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "ru.nsu.mikhalev.task1.app-mergeDebugResources-45:/values-v25/values-v25.xml",
+            "map": [
+                {
+                    "source": "/Users/natasamihaleva/.gradle/caches/transforms-4/b1f72f2653e0dd40a0f875a499f2ba6d/transformed/appcompat-1.6.1/res/values-v25/values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
+                    }
+                }
+            ]
+        }
+    ]
+}
