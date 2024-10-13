@@ -1,15 +1,69 @@
+# Gradle files
+.gradle/
+build/
+*/build/
+!*/src/**/build/
+app/build/
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Android Studio files
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+*.hprof
+*.log
+
+# Local configuration file (sdk path, etc)
 local.properties
+
+# Android specific files
+*.apk
+*.ap_
+*.dex
+*.class
+*.so
+*.jar
+
+# Generated files
+captures/
+outputs/
+output.json
+lint-results*.xml
+*.hprof
+
+# Miscellaneous
+.DS_Store
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig
+
+# External libraries
+lib/
+libs/
+*.jar
+
+# Mac OS X Finder files
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+.Spotlight-V100
+.Trashes
+
+# Android Studio specific
+*.iml
+.gradle/
+.idea/
+*.hprof
+*.log
+
+# Ignore all Kotlin generated files
+*.kt*
+*.class
+
+# Ignore Android NDK files
+obj/
+jni/
