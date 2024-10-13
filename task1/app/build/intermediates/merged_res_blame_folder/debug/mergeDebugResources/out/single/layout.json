@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "ru.nsu.mikhalev.task1.app-mergeDebugResources-46:/layout/activity_b.xml",
+        "source": "ru.nsu.mikhalev.task1.app-main-49:/layout/activity_b.xml"
+    },
+    {
+        "merged": "ru.nsu.mikhalev.task1.app-mergeDebugResources-46:/layout/activity_c.xml",
+        "source": "ru.nsu.mikhalev.task1.app-main-49:/layout/activity_c.xml"
+    },
+    {
+        "merged": "/Users/natasamihaleva/.gradle/daemon/8.7/ru.nsu.mikhalev.task1.app-mergeDebugResources-46:/layout/activity_c.xml",
+        "source": "/Users/natasamihaleva/.gradle/daemon/8.7/ru.nsu.mikhalev.task1.app-main-49:/layout/activity_c.xml"
+    },
+    {
+        "merged": "/Users/natasamihaleva/.gradle/daemon/8.7/ru.nsu.mikhalev.task1.app-mergeDebugResources-46:/layout/activity_b.xml",
+        "source": "/Users/natasamihaleva/.gradle/daemon/8.7/ru.nsu.mikhalev.task1.app-main-49:/layout/activity_b.xml"
+    },
+    {
+        "merged": "ru.nsu.mikhalev.task1.app-mergeDebugResources-46:/layout/activity_a.xml",
+        "source": "ru.nsu.mikhalev.task1.app-main-49:/layout/activity_a.xml"
+    },
+    {
+        "merged": "/Users/natasamihaleva/.gradle/daemon/8.7/ru.nsu.mikhalev.task1.app-mergeDebugResources-46:/layout/activity_a.xml",
+        "source": "/Users/natasamihaleva/.gradle/daemon/8.7/ru.nsu.mikhalev.task1.app-main-49:/layout/activity_a.xml"
+    }
+]

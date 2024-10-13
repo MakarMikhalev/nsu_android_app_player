@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">task2</string>
+    <string name="description_icon">Иконка воспроизведения</string>
+    <string name="description_user">Иконка пользователя</string>
+</resources>
