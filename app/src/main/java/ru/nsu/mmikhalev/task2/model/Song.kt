@@ -1,9 +1,11 @@
 package ru.nsu.mmikhalev.task2.model
 
+import ru.nsu.mmikhalev.task2.utils.RandomGeneratorUtils
+
 data class Song(
     val id: Long,
-    val name: String,
-    val author: String,
-    val photo: Int,
-    var isPlayed: Boolean
+    val image: Image,
+    var isPlayed: Boolean = false,
+    val name: String = RandomGeneratorUtils.getFaker().name().fullName(),
+    val author: String = RandomGeneratorUtils.getFaker().company().name()
 )

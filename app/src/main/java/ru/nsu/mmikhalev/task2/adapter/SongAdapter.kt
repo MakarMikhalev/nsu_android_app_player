@@ -1,14 +1,16 @@
-package ru.nsu.mmikhalev.task2
+package ru.nsu.mmikhalev.task2.adapter
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import ru.nsu.mmikhalev.task2.R
 import ru.nsu.mmikhalev.task2.databinding.ItemSongBinding
-import ru.nsu.mmikhalev.task2.model.ImageLoader
+import ru.nsu.mmikhalev.task2.service.ImageLoaderService
 import ru.nsu.mmikhalev.task2.model.Song
 
-class SongAdapter : RecyclerView.Adapter<SongAdapter.SongViewHolder>() {
+class SongAdapter(private val imageLoaderService: ImageLoaderService) :
+    RecyclerView.Adapter<SongAdapter.SongViewHolder>() {
     var data: List<Song> = emptyList()
         @SuppressLint("NotifyDataSetChanged")
         set(value) {
@@ -36,7 +38,7 @@ class SongAdapter : RecyclerView.Adapter<SongAdapter.SongViewHolder>() {
             playingImageView.setOnClickListener {
                 handlePlayClick(song, position)
             }
-            ImageLoader.loadRoundedImage(imageView, song.photo)
+            imageLoaderService.loadRoundedImage(imageView, song.image.resourceId)
         }
     }
 
